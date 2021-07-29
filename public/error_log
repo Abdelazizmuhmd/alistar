@@ -1,0 +1,549 @@
+[10-Jun-2020 17:59:18 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 17:59:18 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:01:33 America/New_York] PHP Warning:  require_once(../../../../view/testt.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/test.php on line 3
+[10-Jun-2020 18:01:33 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../../../../view/testt.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/test.php on line 3
+[10-Jun-2020 18:01:55 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:01:55 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:03:29 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:03:29 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:03:33 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:03:33 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:04:07 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:04:07 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:04:59 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:04:59 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:05:15 America/New_York] PHP Notice:  Undefined variable: view in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:05:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function menuOutput() on null in /home/patsnnhl/public_html/store/public/menu.php:15
+Stack trace:
+#0 /home/patsnnhl/public_html/store/public/login.php(83): include()
+#1 {main}
+  thrown in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:05:38 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:05:38 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:05:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:05:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:06:10 America/New_York] PHP Notice:  Undefined variable: view in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:06:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function menuOutput() on null in /home/patsnnhl/public_html/store/public/menu.php:15
+Stack trace:
+#0 /home/patsnnhl/public_html/store/public/login.php(85): include()
+#1 {main}
+  thrown in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:06:46 America/New_York] PHP Notice:  Undefined variable: view in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:06:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function menuOutput() on null in /home/patsnnhl/public_html/store/public/menu.php:15
+Stack trace:
+#0 /home/patsnnhl/public_html/store/public/login.php(87): include()
+#1 {main}
+  thrown in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:07:30 America/New_York] PHP Notice:  Undefined variable: view in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:07:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function menuOutput() on null in /home/patsnnhl/public_html/store/public/menu.php:15
+Stack trace:
+#0 /home/patsnnhl/public_html/store/public/login.php(87): include()
+#1 {main}
+  thrown in /home/patsnnhl/public_html/store/public/menu.php on line 15
+[10-Jun-2020 18:08:14 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:14 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:28 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:28 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:37 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:37 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:39 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 18:08:39 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:07:44 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:07:44 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:32 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:32 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:34 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:34 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:52 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:28:52 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:01 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:01 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:02 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:02 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:14 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:14 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:45 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:29:45 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:19 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:19 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:23 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:23 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:27 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:27 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:33 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:33 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:43 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:43 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:46 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:35:46 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:39:13 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:39:13 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:39:17 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:39:17 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:40:36 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:40:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:50:57 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:50:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:21 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:21 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:24 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:24 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:28 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:28 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:31 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:35 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:51:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:31 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:34 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:34 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:37 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:37 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:38 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:38 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:38 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:38 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:52:41 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:53:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:53:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:22 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:22 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:24 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:24 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:36 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 19:54:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:13:45 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:13:45 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:22:58 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:22:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:26:40 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:26:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:05 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:05 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:06 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:17 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:30:17 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:31:46 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:31:46 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:32:07 America/New_York] PHP Warning:  require_once(../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:32:07 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:32:50 America/New_York] PHP Warning:  require_once(productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:32:50 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:33:13 America/New_York] PHP Warning:  require_once(../../productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:33:13 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../../productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:33:49 America/New_York] PHP Warning:  require_once(home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:33:49 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'home/patsnnhl/public_html/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:01 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:01 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:10 America/New_York] PHP Warning:  require_once(../home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:10 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../home/patsnnhl/public_html/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:36 America/New_York] PHP Warning:  include_once(../home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:36 America/New_York] PHP Warning:  include_once(): Failed opening '../home/patsnnhl/public_html/model/productdetails.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:34:36 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:34:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:35:07 America/New_York] PHP Warning:  include(../home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:35:07 America/New_York] PHP Warning:  include(../home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:35:07 America/New_York] PHP Warning:  include(): Failed opening '../home/patsnnhl/public_html/model/productdetails.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:35:07 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:35:07 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:35:29 America/New_York] PHP Warning:  require_once(../home/patsnnhl/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:35:29 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../home/patsnnhl/public_html/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:37:04 America/New_York] PHP Warning:  require_once(/public_html/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:37:04 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/public_html/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:16 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:16 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:31 America/New_York] PHP Warning:  require_once(home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:46 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:46 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:48 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:48 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:54 America/New_York] PHP Warning:  require_once(home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:38:54 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:35 America/New_York] PHP Warning:  require_once(/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:42 America/New_York] PHP Warning:  require_once(/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:42 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:48 America/New_York] PHP Warning:  require_once(/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:39:48 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 5
+[10-Jun-2020 20:40:13 America/New_York] PHP Warning:  A non-numeric value encountered in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:13 America/New_York] PHP Warning:  A non-numeric value encountered in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:13 America/New_York] PHP Warning:  require_once(0): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:13 America/New_York] PHP Fatal error:  require_once(): Failed opening required '0' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:31 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/publicmodel/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/publicmodel/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:42 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/public/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:42 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/public/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:55 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/public../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:40:55 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/public../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:41:04 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/public/../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:41:04 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/public/../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:41:19 America/New_York] PHP Warning:  require_once(/home/patsnnhl/public_html/store/public/../../model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:41:19 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/patsnnhl/public_html/store/public/../../model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:41:57 America/New_York] PHP Warning:  require_once(../model/Modsel.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:41:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Modsel.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:42:26 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:42:26 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:42:58 America/New_York] PHP Warning:  require_once(home/patsnnhl/public_html/store/model/productdetails.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:42:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'home/patsnnhl/public_html/store/model/productdetails.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 4
+[10-Jun-2020 20:43:25 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:43:25 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/orderproductdetails.php on line 2
+[10-Jun-2020 20:45:58 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/report.php on line 2
+[10-Jun-2020 20:45:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/report.php on line 2
+[10-Jun-2020 20:46:52 America/New_York] PHP Warning:  require_once(../model/Model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/user.php on line 2
+[10-Jun-2020 20:46:52 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/user.php on line 2
+[10-Jun-2020 20:47:07 America/New_York] PHP Warning:  require_once(../model/Model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/order.php on line 3
+[10-Jun-2020 20:47:07 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/order.php on line 3
+[10-Jun-2020 20:47:20 America/New_York] PHP Warning:  require_once(../model/Model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:47:20 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:47:22 America/New_York] PHP Warning:  require_once(../model/Model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:47:22 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/product.php on line 3
+[10-Jun-2020 20:47:33 America/New_York] PHP Warning:  require_once(../model/Model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/controller/Controller.php on line 2
+[10-Jun-2020 20:47:33 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/Model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/controller/Controller.php on line 2
+[10-Jun-2020 20:50:00 America/New_York] PHP Warning:  require_once(../model/model.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/model/user.php on line 2
+[10-Jun-2020 20:50:00 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../model/model.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/model/user.php on line 2
+[10-Jun-2020 20:54:12 America/New_York] PHP Warning:  include_once(../View/menuView.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/login.php on line 10
+[10-Jun-2020 20:54:12 America/New_York] PHP Warning:  include_once(): Failed opening '../View/menuView.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/login.php on line 10
+[10-Jun-2020 20:54:12 America/New_York] PHP Fatal error:  Uncaught Error: Class 'menuView' not found in /home/patsnnhl/public_html/store/public/login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/patsnnhl/public_html/store/public/login.php on line 15
+[10-Jun-2020 20:55:35 America/New_York] PHP Warning:  require_once(../View/menuView.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/products.php on line 5
+[10-Jun-2020 20:55:35 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../View/menuView.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/products.php on line 5
+[10-Jun-2020 21:06:40 America/New_York] PHP Warning:  require_once(../view/checkout.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:06:40 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../view/checkout.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:07:11 America/New_York] PHP Warning:  require_once(../view/checkout.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:07:11 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../view/checkout.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:07:31 America/New_York] PHP Warning:  require_once(../view/checkout.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:07:31 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../view/checkout.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/checkout.php on line 6
+[10-Jun-2020 21:09:38 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:12:10 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:20:18 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:20:42 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:30:17 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:32:51 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:46:12 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:49:04 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:50:16 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 21:51:49 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[10-Jun-2020 22:20:23 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 117
+[11-Jun-2020 10:35:35 America/New_York] PHP Fatal error:  Cannot redeclare user::generateReport() in /home/patsnnhl/public_html/store/model/user.php on line 276
+[11-Jun-2020 10:37:13 America/New_York] PHP Fatal error:  Cannot redeclare user::generateReport() in /home/patsnnhl/public_html/store/model/user.php on line 276
+[11-Jun-2020 10:46:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method user::forgetPassword() in /home/patsnnhl/public_html/store/controller/loginController.php:19
+Stack trace:
+#0 /home/patsnnhl/public_html/store/public/login.php(24): loginController->forgetPassword()
+#1 {main}
+  thrown in /home/patsnnhl/public_html/store/controller/loginController.php on line 19
+[11-Jun-2020 10:48:45 America/New_York] PHP Notice:  Undefined variable: fsql in /home/patsnnhl/public_html/store/model/user.php on line 281
+[11-Jun-2020 10:48:45 America/New_York] PHP Notice:  Undefined variable: fsql in /home/patsnnhl/public_html/store/model/user.php on line 283
+[11-Jun-2020 10:48:45 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/patsnnhl/public_html/store/database/db.php:61
+Stack trace:
+#0 /home/patsnnhl/public_html/store/database/db.php(61): PDOStatement->execute()
+#1 /home/patsnnhl/public_html/store/model/user.php(283): Database->execute(NULL)
+#2 /home/patsnnhl/public_html/store/controller/loginController.php(19): user->forgetPassword('islam@mail.com')
+#3 /home/patsnnhl/public_html/store/public/login.php(24): loginController->forgetPassword()
+#4 {main}
+  thrown in /home/patsnnhl/public_html/store/database/db.php on line 61
+[11-Jun-2020 10:50:42 America/New_York] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/patsnnhl/public_html/store/other/mailer/PHPMailerAutoload.php on line 45
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:43:23 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:45:56 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:20 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:47:30 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:48:16 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:49:05 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:52:15 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:05 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:56:37 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 11:58:02 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:31:37 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:36:34 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 43
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: address in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: apartmant in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: city in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 12:38:38 America/New_York] PHP Notice:  Undefined variable: phone in /home/patsnnhl/public_html/store/controller/checkoutController.php on line 25
+[12-Jun-2020 15:20:15 America/New_York] PHP Notice:  Undefined variable: arr in /home/patsnnhl/public_html/store/public/cart.php on line 21
+[12-Jun-2020 15:20:15 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/patsnnhl/public_html/store/public/cart.php on line 21
+[16-Jun-2020 07:01:03 America/New_York] PHP Notice:  Undefined offset: 0 in /home/patsnnhl/public_html/store/model/order.php on line 246
+[16-Jun-2020 07:01:03 America/New_York] PHP Notice:  Trying to get property 'userid' of non-object in /home/patsnnhl/public_html/store/model/order.php on line 246
+[19-Jun-2020 14:52:53 America/New_York] PHP Warning:  include_once(location: ../public/header.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/products.php on line 61
+[19-Jun-2020 14:52:53 America/New_York] PHP Warning:  include_once(): Failed opening 'location: ../public/header.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/products.php on line 61
+[19-Jun-2020 14:54:07 America/New_York] PHP Warning:  include_once(location: ../public/header.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/products.php on line 61
+[19-Jun-2020 14:54:07 America/New_York] PHP Warning:  include_once(): Failed opening 'location: ../public/header.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/products.php on line 61
+[19-Jun-2020 14:55:02 America/New_York] PHP Warning:  require_once(location: ../public/header.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/products.php on line 61
+[19-Jun-2020 14:55:02 America/New_York] PHP Fatal error:  require_once(): Failed opening required 'location: ../public/header.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/products.php on line 61
+[20-Jun-2020 15:37:53 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 15:40:54 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 15:44:12 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 16:19:22 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 16:20:21 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 16:41:58 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 17:09:38 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 25
+[20-Jun-2020 17:16:07 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 8
+[20-Jun-2020 17:16:10 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 8
+[20-Jun-2020 17:16:49 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 8
+[20-Jun-2020 17:21:04 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:21:11 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:21:18 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:21:55 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:22:14 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:23:21 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[20-Jun-2020 17:50:12 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 07:45:50 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 40
+[21-Jun-2020 07:45:54 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 40
+[21-Jun-2020 16:24:24 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 16:24:30 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 16:38:39 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 17:19:08 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 17:19:33 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 17:20:27 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 17:21:19 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 20:34:09 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[21-Jun-2020 20:34:09 America/New_York] PHP Notice:  Undefined variable: password in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[21-Jun-2020 22:55:30 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 22:55:30 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 22:55:57 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 22:55:57 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 22:56:36 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 22:56:36 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 22:56:45 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 50
+[21-Jun-2020 22:56:49 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 50
+[21-Jun-2020 22:56:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 50
+[21-Jun-2020 22:56:53 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 50
+[21-Jun-2020 22:57:45 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 22:57:45 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 22:57:54 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 50
+[21-Jun-2020 22:59:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 52
+[21-Jun-2020 22:59:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 52
+[21-Jun-2020 23:01:12 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/controller/userOrder.php on line 52
+[21-Jun-2020 23:03:45 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 23:03:45 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:06:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method userOrderController::deles te() in /home/patsnnhl/public_html/store/public/orders.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/patsnnhl/public_html/store/public/orders.php on line 58
+[21-Jun-2020 23:08:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patsnnhl/public_html/store/public/header.php:66) in /home/patsnnhl/public_html/store/public/orders.php on line 59
+[21-Jun-2020 23:12:05 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 23:12:05 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:12:34 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 23:12:34 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:12:54 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 23:12:54 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:15:30 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 131
+[21-Jun-2020 23:15:30 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:17:36 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 132
+[21-Jun-2020 23:17:36 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:18:45 America/New_York] PHP Notice:  Undefined variable: length in /home/patsnnhl/public_html/store/model/order.php on line 132
+[21-Jun-2020 23:18:45 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:21:27 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:24:57 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:32:41 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:32:44 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:32:44 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:33:59 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:33:59 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:38:36 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:38:36 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:38:36 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:40:09 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:40:31 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:40:31 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:40:31 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:41:33 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:41:59 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:41:59 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:41:59 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:42:56 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:43:14 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:43:14 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:43:14 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:50:38 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:50:55 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:50:55 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:50:55 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:55:07 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:55:33 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:55:33 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[21-Jun-2020 23:55:33 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:58:09 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[21-Jun-2020 23:58:14 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 138
+[21-Jun-2020 23:58:14 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[22-Jun-2020 00:02:31 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:07:54 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:10:53 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:13:29 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:15:41 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:17:16 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:17:32 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:18:27 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:19:47 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:22:59 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:23:14 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 00:49:03 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=414' at line 1 in /home/patsnnhl/public_html/store/database/db.php:61
+Stack trace:
+#0 /home/patsnnhl/public_html/store/database/db.php(61): PDOStatement->execute()
+#1 /home/patsnnhl/public_html/store/model/productDetails.php(310): Database->execute()
+#2 /home/patsnnhl/public_html/store/controller/adminController.php(134): productDetails->delete('414')
+#3 /home/patsnnhl/public_html/store/public/adminproducts.php(13): adminController->deleteProduct()
+#4 {main}
+  thrown in /home/patsnnhl/public_html/store/database/db.php on line 61
+[22-Jun-2020 01:00:08 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[22-Jun-2020 01:00:08 America/New_York] PHP Notice:  Undefined variable: password in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[22-Jun-2020 02:22:05 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 9
+[22-Jun-2020 02:22:52 America/New_York] PHP Notice:  Undefined index: note in /home/patsnnhl/public_html/store/view/checkOut.php on line 30
+[22-Jun-2020 02:43:40 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 139
+[22-Jun-2020 02:43:40 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 140
+[22-Jun-2020 03:43:27 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[22-Jun-2020 03:43:27 America/New_York] PHP Notice:  Undefined variable: password in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[22-Jun-2020 03:44:07 America/New_York] PHP Notice:  Undefined variable: email in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[22-Jun-2020 03:44:07 America/New_York] PHP Notice:  Undefined variable: password in /home/patsnnhl/public_html/store/controller/loginController.php on line 13
+[03-Jul-2020 05:02:21 America/New_York] PHP Fatal error:  Uncaught Exception: DATABASE IS DOWN!   in /home/patsnnhl/public_html/store/database/db.php:41
+Stack trace:
+#0 /home/patsnnhl/public_html/store/database/db.php(21): Database->connect()
+#1 /home/patsnnhl/public_html/store/model/Model.php(18): Database->__construct()
+#2 /home/patsnnhl/public_html/store/model/menu.php(20): Model->connect()
+#3 /home/patsnnhl/public_html/store/controller/menuController.php(6): menu->getAllCategoriesDetails()
+#4 /home/patsnnhl/public_html/store/public/products.php(13): menuController->getAllCategoriesDetails()
+#5 {main}
+  thrown in /home/patsnnhl/public_html/store/database/db.php on line 41
+[03-Jul-2020 05:02:53 America/New_York] PHP Fatal error:  Uncaught Exception: DATABASE IS DOWN!   in /home/patsnnhl/public_html/store/database/db.php:41
+Stack trace:
+#0 /home/patsnnhl/public_html/store/database/db.php(21): Database->connect()
+#1 /home/patsnnhl/public_html/store/model/Model.php(18): Database->__construct()
+#2 /home/patsnnhl/public_html/store/model/menu.php(20): Model->connect()
+#3 /home/patsnnhl/public_html/store/controller/menuController.php(6): menu->getAllCategoriesDetails()
+#4 /home/patsnnhl/public_html/store/public/products.php(13): menuController->getAllCategoriesDetails()
+#5 {main}
+  thrown in /home/patsnnhl/public_html/store/database/db.php on line 41
+[03-Jul-2020 06:01:32 America/New_York] PHP Warning:  require_once(../View/menuView.php): failed to open stream: No such file or directory in /home/patsnnhl/public_html/store/public/product.php on line 4
+[03-Jul-2020 06:01:32 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../View/menuView.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/patsnnhl/public_html/store/public/product.php on line 4
+[03-Jul-2020 06:17:36 America/New_York] PHP Notice:  Undefined variable: firstname in /home/patsnnhl/public_html/store/model/user.php on line 160
+[03-Jul-2020 06:17:36 America/New_York] PHP Notice:  Undefined variable: lastname in /home/patsnnhl/public_html/store/model/user.php on line 161
+[15-Jun-2021 21:35:08 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[15-Jun-2021 21:35:08 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[18-Jun-2021 13:48:13 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[18-Jun-2021 13:48:13 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[18-Jun-2021 17:08:06 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[18-Jun-2021 17:08:06 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[18-Jun-2021 17:41:45 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[18-Jun-2021 17:41:45 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[18-Jun-2021 17:53:19 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[18-Jun-2021 17:53:19 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[18-Jun-2021 18:36:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/alismqyf/public_html/view/menuView.php on line 255
+[18-Jun-2021 18:57:36 UTC] PHP Warning:  Use of undefined constant counterid - assumed 'counterid' (this will throw an Error in a future version of PHP) in /home/alismqyf/public_html/view/menuView.php on line 235
+[18-Jun-2021 18:57:36 UTC] PHP Warning:  Use of undefined constant counterid - assumed 'counterid' (this will throw an Error in a future version of PHP) in /home/alismqyf/public_html/view/menuView.php on line 235
+[18-Jun-2021 18:57:36 UTC] PHP Warning:  Use of undefined constant counterid - assumed 'counterid' (this will throw an Error in a future version of PHP) in /home/alismqyf/public_html/view/menuView.php on line 235
+[18-Jun-2021 18:57:36 UTC] PHP Warning:  Use of undefined constant counterid - assumed 'counterid' (this will throw an Error in a future version of PHP) in /home/alismqyf/public_html/view/menuView.php on line 235
+[18-Jun-2021 18:57:36 UTC] PHP Warning:  Use of undefined constant counterid - assumed 'counterid' (this will throw an Error in a future version of PHP) in /home/alismqyf/public_html/view/menuView.php on line 235
+[21-Jun-2021 23:19:01 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[21-Jun-2021 23:19:01 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[23-Jun-2021 14:42:05 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[23-Jun-2021 14:42:05 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[25-Jun-2021 13:04:54 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[25-Jun-2021 13:04:54 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[04-Jul-2021 12:38:13 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[04-Jul-2021 12:38:13 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[11-Jul-2021 01:16:04 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[11-Jul-2021 01:16:04 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[11-Jul-2021 01:18:25 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[11-Jul-2021 01:18:25 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[11-Jul-2021 02:05:41 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[11-Jul-2021 02:05:41 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[11-Jul-2021 03:01:52 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[11-Jul-2021 03:01:52 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[11-Jul-2021 19:42:52 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[11-Jul-2021 19:42:52 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[12-Jul-2021 18:52:37 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[12-Jul-2021 18:52:37 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[13-Jul-2021 14:18:38 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[13-Jul-2021 14:18:38 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[14-Jul-2021 13:03:35 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[14-Jul-2021 13:03:35 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161
+[15-Jul-2021 23:26:37 UTC] PHP Notice:  Undefined variable: firstname in /home/alismqyf/public_html/model/user.php on line 160
+[15-Jul-2021 23:26:37 UTC] PHP Notice:  Undefined variable: lastname in /home/alismqyf/public_html/model/user.php on line 161

@@ -1,0 +1,12 @@
+.titlesname{
+      margin-top:160px ;
+} 
+    
+    
+@media only screen and (max-width: 430px) {
+.titlesname{
+      margin-top:125px !important ;
+} 
+    }
+        
+.mySlides {display:none;}
