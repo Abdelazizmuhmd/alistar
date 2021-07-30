@@ -76,6 +76,7 @@ include_once("../other/sessioncheck.php");
 
 <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
 <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+<script src="../js/print.js"></script>
 
     
     <style>
@@ -158,7 +159,7 @@ include_once("../other/sessioncheck.php");
     Available colors for the full background: full-color-blue, full-color-azure, full-color-green, full-color-red, full-color-orange
     Available colors only for the toolbar: toolbar-color-blue, toolbar-color-azure, toolbar-color-green, toolbar-color-red, toolbar-color-orange
   -->
-    <table id="fresh-table" class="table tableshow" data-filter-control="true">
+    <table id="fresh-table"  class="table tableshow printa" data-filter-control="true">
         <thead>
     <tr class="must">
                 <th data-field="Number" data-sortable="true"><label for="vehicle1">Number</label></th>    
@@ -184,16 +185,18 @@ include_once("../other/sessioncheck.php");
           <?php
                 if($_SESSION['usertype']=="admin"){  
                      ?>
-        <th data-field="action" data-sortable="true">Action</th>
-        <th data-field="delete" data-sortable="true">Delete</th>
+        <th data-field="action" class = 'rm' data-sortable="true">Action</th>
+        <th data-field="delete" class = 'rm' data-sortable="true">Delete</th>
   <?php } ?>
         
  </tr>
         </thead>
                       
                 <tbody>
- 
- 
+                <center>
+                <a href="#" class="btn prin btn-info btn-lg">
+          <span style="text-align:center" class="glyphicon glyphicon-print"></span> Print
+        </a>
                 <?php
                  if(count($model->getordersArray())>0)
                   echo $view->output();
