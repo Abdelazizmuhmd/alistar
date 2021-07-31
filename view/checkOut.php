@@ -89,8 +89,46 @@ $dis="";
                     
      <div  class='field field--required'>
        <div class='field__input-wrapper'>
-         <input name='city'  class='field__input'  type='text' id='city' value='".$this->model->getCity()."' placeholder='city' maxlength='20'/>
-         <p id='City' style='color:red;'></p>
+        
+
+<select name='city' id='city' value='".$this->model->getCity()."' class='field__input field__input--select' >
+   <option  value='Cairo'>Cairo</option>
+   <option  value='Giza'>Giza</option>
+   <option  value='Alexandria'>Alexandria</option>
+   <option  value='Qalyubia'>Qalyubia</option>
+   <option  value='Port Said'>Port Said</option>
+   <option  value='Suez'>Suez</option>
+   <option  value='Gharbia'>Gharbia</option>
+   <option  value='Dakahlia'>Dakahlia</option>
+   <option  value='Asyut'>Asyut</option>
+   <option  value='Fayoum'>Fayoum</option>
+   <option  value='Sharqia'>Sharqia</option>
+   <option  value='Ismailia'>Ismailia</option>
+   <option  value='Aswan'>Aswan</option>
+   <option  value='Beheira'>Beheira</option>
+   <option  value='Minya'>Minya</option>
+   <option  value='Damietta'>Damietta</option>
+   <option  value='Luxor'>Luxor</option>
+   <option  value='Qena'>Qena</option>
+   <option  value='Beni Suef'>Beni Suef</option>
+   <option  value='Sohag'>Sohag</option>
+   <option  value='Monufia'>Monufia</option>
+   <option  value='Red Sea'>Red Sea</option>
+   <option  value='Kafr el-Sheikh'>Kafr el-Sheikh</option>
+   <option  value='North Sinai'>North Sinai</option>
+   <option  value='Matruh'>Matruh</option>
+   <option  value='Hurghada'>Hurghada</option>
+   <option  value='10th of Ramadan City'>10th of Ramadan City</option>
+   <option  value='Shibin el-Kom'>Shibin el-Kom</option>
+   <option  value='Sharm el-Sheikh'>Sharm el-Sheikh</option>
+   <option  value='Tanta'>Tanta</option>
+
+
+</select>
+ <p id='City' style='color:red;'></p>
+
+
+
          </div>
    </div>
                  
