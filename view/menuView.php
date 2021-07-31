@@ -180,14 +180,29 @@ class menuView extends View{
                            }
                   else $display='display:block;';
 
-                $str.= '<div class="selectorsC" id = '.$productdetail->getColor().' style='.$display.'>
+                       if((int)($product->getoldpricce()) != "0"){
+
+
+ $str.= '<div class="selectorsC" id = '.$productdetail->getColor().' style='.$display.'>
+            
+
+                     <p class="product-single__prices">
+                     <s><span id="ProductPrice" class="product-single__price" value="'.(int)($product->getoldpricce()).'">'.(int)($product->getoldpricce()).' L.E</span></s>
+                         <span id="ProductPrice" class="product-single__price" value="'.(int)($product->getCost()+$product->getProfit()).'">'.(int)($product->getCost()+$product->getProfit()).' L.E</span>
+                     </p>';
+                       }else{
+ $str.= '<div class="selectorsC" id = '.$productdetail->getColor().' style='.$display.'>
             
 
                      <p class="product-single__prices">
                          <span id="ProductPrice" class="product-single__price" value="'.(int)($product->getCost()+$product->getProfit()).'">'.(int)($product->getCost()+$product->getProfit()).' L.E</span>
-                     </p>
+                     </p>';
 
-                     <div class="product-single__policies rte">Tax included. Delevered to your Door.
+                       }
+
+               
+
+                     $str.= '<div class="product-single__policies rte">Tax included. Delevered to your Door.
 
 
                      </div>
