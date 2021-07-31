@@ -3,9 +3,13 @@ ob_start();
 require_once("../model/user.php");
 require_once("../controller/checkoutController.php");
 require_once("../view/checkOut.php");
+
+
+require_once("langbuttons.php");
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception; 
 require '../vendor/autoload.php'; 
+>>>>>>> abfa0aa222072e8e3a5a0b894a7435b335d2dcb3
 session_start();
 $model = new user();
 $controller = new checkOutController($model);
@@ -64,7 +68,7 @@ $mail->send();
 <div class="main">
 <header class="main__header" role="banner">
 <h1 >
-Information
+<?php echo $lang['information'] ?>
 </h1>
 </header>
 <main class="main__content" role="main">

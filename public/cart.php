@@ -65,12 +65,12 @@ include_once("../public/header.php");
              <span class="cart__subtotal h3">
             <span  id="subtotalprice"class="hulkapps-cart-original-total">        
             </span></span>
-              </p><p class="cart__policies txt--emphasis rte">Tax included. Delivered to your door</p>
+              </p><p class="cart__policies txt--emphasis rte"><?php echo $lang['taxes'] ?></p>
               <p>
-              <a class="btn btn--secondary" href="../public/products.php">Continue shopping</a>
+              <a class="btn btn--secondary" href="../public/products.php"><?php echo $lang['continueshopping'] ?></a>
               </p>
               <p>
-              <input type="submit" name="checkout" class="btn" id="checkout" value="Check Out">
+              <input type="submit" name="checkout" class="btn" id="checkout" value="<?php echo $lang['checkout'] ?>">
               </p>
             </div>
           </div>

@@ -3,6 +3,7 @@ require_once("../model/menu.php");
 require_once("../controller/menuController.php");
 require_once("../view/menuView.php");
 
+
 $model = new menu();
 $controller= new menuController($model);
 if (isset($_GET['action']) && !empty($_GET['action'])) {
@@ -85,7 +86,7 @@ include("menu.php");
 <div data-section-id="collection-template" data-section-type="collection-template" data-sort-enabled="true" data-tags-enabled="true">
 <div class="grid grid--uniform" style="display:flex;  flex-flow:wrap;" id="products" role="list">
 </div>
-<button onclick="loadMoreProducts();"  id="loadmore" value="loadMore" class="buttonn buttonn1" >loadMore</button>
+<button onclick="loadMoreProducts();"  id="loadmore" value="LoadMore" class="buttonn buttonn1" ><?php echo $lang['loadMore'] ?></button>
 <input type="text" value="0" id="numRows" name="numRows" hidden>
 <input type="text" value=""  id="subcategoryid" name="subcategoryid" hidden>
      
