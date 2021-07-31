@@ -3,6 +3,9 @@ ob_start();
 require_once("../model/user.php");
 require_once("../controller/checkoutController.php");
 require_once("../view/checkOut.php");
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception; 
+require '../vendor/autoload.php'; 
 session_start();
 $model = new user();
 $controller = new checkOutController($model);
@@ -11,6 +14,22 @@ if(isset($_SESSION['id'])){
 }
 $view=new viewCheckOut($model,$controller);
 if (isset($_GET['action']) && !empty($_GET['action'])) { 
+  date_default_timezone_set('Etc/UTC'); 
+$mail = new PHPMailer(TRUE);
+$mail->SMTPOptions = array('ssl'=>array('verify_peer'=>false, 'verify_peer_name'=>false, 'allow_self_signed'=>true));
+$mail->isSMTP(); 
+$mail->Host = 'smtp.gmail.com'; 
+$mail->Port = 587; 
+$mail->SMTPAuth = true; 
+$mail->SMTPSecure = 'tls'; 
+$mail->Username = 'move20miu2020@gmail.com'; 
+$mail->Password = 'rywuqlxruswomhuj'; 
+$mail->setFrom('move20miu2020@gmail.com',  'Alistar'); 
+$mail->CharSet = 'utf-8';
+$mail->Subject = "New Order!";
+$mail->Body = 'A new order has been placed, kindly checkout the dashboard!';
+$mail->addAddress("abdelaziz1710803@miuegypt.edu.eg", "Admin");
+$mail->send();
     if(isset($_SESSION['id'])){   
    
       $controller->makeorderclient(); 
