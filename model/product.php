@@ -7,6 +7,7 @@ protected $id;
 protected $name;
 protected $code;
 protected $cost;
+protected $oldprice;
 protected $profit;
 protected $description;
 protected $weight;
@@ -25,6 +26,11 @@ function getCode(){
 function getCost(){
     return $this->cost;
 }
+
+function getoldpricce(){
+    return $this->oldprice;
+}
+
 function getProfit(){
     return $this->profit;
 }
@@ -67,6 +73,7 @@ function readoneProductDetail($productid,$productdetailId){
      $this->name = $product[0]->name;
      $this->code = $product[0]->code;
      $this->cost = (int)$product[0]->cost;
+     $this->oldprice = (int)$product[0]->oldprice;
      $this->profit =(int)$product[0]->profit;
      $this->description =$product[0]->description;
      $this->weight =$product[0]->weight;}
@@ -100,15 +107,20 @@ function getProductDetails(){
 }
 
     
- function insertProduct($name,$code,$cost,$profit,$description,$weight,$productdetail,$subcategoryid){
+ function insertProduct($name,$code,$cost,$oldprice,$profit,$description,$weight,$productdetail,$subcategoryid){
      
          $name=trim($name);
          $code=trim($code);
          $cost=trim($cost);
+         $oldprice=trim($oldprice);
          $profit=trim($profit);
          $description=trim($description);
          $weight=trim($weight);
          $subcategoryid=trim($subcategoryid);
+
+         if($oldprice == ""){
+            $oldprice = "0";
+         }
 
          $this->getvalidation();
      
@@ -117,6 +129,7 @@ function getProductDetails(){
          $this->validation->validateMixedString($code,1,30);
      
          $this->validation->validateNumber($cost,1,30);
+         $this->validation->validateNumber($oldprice,1,30);
      
          $this->validation->validateNumber($profit,1,30);
      
@@ -128,11 +141,12 @@ function getProductDetails(){
      
 
       $this->connect();
-      $sql = "INSERT into product(name,code,cost,profit,description,weight) values(:name,:code,:cost,:profit,:description,:weight)";
+      $sql = "INSERT into product(name,code,cost,oldprice,profit,description,weight) values(:name,:code,:cost,:oldprice,:profit,:description,:weight)";
       $this->db->query($sql);
       $this->db->bind(':name',$name,PDO::PARAM_STR);
       $this->db->bind(':code',$code,PDO::PARAM_STR);
       $this->db->bind(':cost',$cost,PDO::PARAM_INT);
+      $this->db->bind(':oldprice',$oldprice,PDO::PARAM_INT);
       $this->db->bind(':profit',$profit,PDO::PARAM_INT);
       $this->db->bind(':description',$description,PDO::PARAM_STR);
       $this->db->bind(':weight',$weight,PDO::PARAM_INT);
@@ -156,7 +170,7 @@ function getProductDetails(){
    
     
     
-     function update($productid,$productdetailid,$name,$code,$cost,$profit,$description,$weight,$color,$s,$m,$l,$xl,$xxl,$xxxl,$imageurls){
+     function update($productid,$productdetailid,$name,$code,$cost,$oldprice,$profit,$description,$weight,$color,$s,$m,$l,$xl,$xxl,$xxxl,$imageurls){
          $productid=trim($productid);
          $productdetailid=trim($productdetailid);
          $name=trim($name);
@@ -177,6 +191,7 @@ function getProductDetails(){
         $this->validation->validateMixedString($name,1,30);
         $this->validation->validateMixedString($code,1,30);
         $this->validation->validateNumber($cost,1,30);
+        $this->validation->validateNumber($oldprice,1,30);
      
         $this->validation->validateNumber($profit,1,30);
      
@@ -188,7 +203,7 @@ function getProductDetails(){
      
 
       $this->connect();
-      $sql = "update product  set name= :name ,code=:code ,cost=:cost ,profit=:profit,description=:description,weight=:weight where id =:id";
+      $sql = "update product  set name= :name ,code=:code ,cost=:cost,oldprice=:oldprice ,profit=:profit,description=:description,weight=:weight where id =:id";
          
       $this->db->query($sql);
 
@@ -198,6 +213,7 @@ function getProductDetails(){
 
          
       $this->db->bind(':cost',$cost,PDO::PARAM_INT);
+      $this->db->bind(':oldprice',$oldprice,PDO::PARAM_INT);
       $this->db->bind(':profit',$profit,PDO::PARAM_INT);
       $this->db->bind(':description',$description,PDO::PARAM_STR);
       $this->db->bind(':weight',$weight,PDO::PARAM_INT);
@@ -229,6 +245,7 @@ function readProduct($productid){
      $this->name = $product[0]->name;
      $this->code = $product[0]->code;
      $this->cost = (int)$product[0]->cost;
+     $this->oldprice = (int)$product[0]->oldprice;
      $this->profit =(int)$product[0]->profit;
      $this->description =$product[0]->description;
      $this->weight =$product[0]->weight;

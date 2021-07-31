@@ -207,7 +207,6 @@ $view= new adminproductsView($model,$controller);
 
                     <input type="text" name="productid" id="productid" value="" hidden>
                     <tr>
-
                         <td> Name<input type="text" id="productName" value="" class="form-control"
                                 placeholder="Enter Product Name" maxlength="50" onkeyup="validate()" required>
                                 <p id="Name" style="color:red;"></p>
@@ -239,8 +238,20 @@ $view= new adminproductsView($model,$controller);
                                 placeholder="Enter Product Cost" maxlength="50" onkeyup="validate()" required>
                                 <p id="Cost" style="color:red;"></p>
                                 </td>
+                             
+
 
                     </tr>
+
+                    <tr>
+                           <td>Old Price<input type="text" value="0"id="oldprice" class="form-control"
+                                placeholder="Enter Old Price" maxlength="50" onkeyup="" required>
+                                <p id="oldprice" style="color:red;"></p>
+                                </td>
+
+                    </tr>
+
+                    
                 </table>
 
             </div>
@@ -303,6 +314,7 @@ $view= new adminproductsView($model,$controller);
                     <th style="display:none">detailId</th>
                     <th>name</th>
                     <th>cost</th>
+                    <th>oldprice</th>
                     <th>profit</th>
                     <th>code</th>
                     <th>description</th>
@@ -682,6 +694,7 @@ var flg=0;
                 var productDescription = document.getElementById("productDescription").value;
                 var productWeight = document.getElementById("productWeight").value;
                 var productCost = document.getElementById("productCost").value;
+                var oldprice = document.getElementById("oldprice").value;
                 var photo = document.getElementById("image").value;
                 
 
@@ -963,6 +976,7 @@ else{
                     formData.append("productDescription", document.getElementById("productDescription").value);
                     formData.append("productWeight", document.getElementById("productWeight").value);
                     formData.append("productCost", document.getElementById("productCost").value);
+                    formData.append("oldprice", document.getElementById("oldprice").value);
                     formData.append("productColor", document.getElementById("productColor").value);
                     formData.append("small", document.getElementById("small").value);
                     formData.append("Medium", document.getElementById("Medium").value);
@@ -988,6 +1002,7 @@ else{
                             document.getElementById("productDescription").disabled = true;
                             document.getElementById("productWeight").disabled = true;
                             document.getElementById("productCost").disabled = true;
+                            document.getElementById("oldprice").disabled = true;
                             var x = document.getElementById("colors");
                             var option = document.createElement("option");
                             option.text = document.getElementById("productColor").value;
@@ -1103,6 +1118,7 @@ else{
                 document.getElementById("productDescription").disabled = false;
                 document.getElementById("productWeight").disabled = false;
                 document.getElementById("productCost").disabled = false;
+                document.getElementById("oldprice").disabled = false;
                 document.getElementById("productid").value = "";
 
                 document.getElementById("productName").value = "";
@@ -1111,6 +1127,7 @@ else{
                 document.getElementById("productDescription").value = "";
                 document.getElementById("productWeight").value = "";
                 document.getElementById("productCost").value = "";
+                document.getElementById("oldprice").value = "";
 
                 document.getElementById("productColor").value = "";
                 document.getElementById("small").value = "";

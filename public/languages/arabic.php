@@ -41,7 +41,7 @@ $lang['firstname'] = "الاسم الأول";
 $lang['lastname'] = "اسم العائلة";
 
 
-$lang['continueshopping'] = "استكمال عملية الشراء";
+$lang['continueshopping'] = "استكمال التسوق";
 
 $lang['checkout'] = "الدفع";
 

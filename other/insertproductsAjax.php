@@ -12,7 +12,7 @@ if(!isset($_FILES['files']['name']) ||
 
 !isset($_REQUEST['3xLarge']) ||!isset($_REQUEST['productName']) ||
 
-!isset($_REQUEST['productCode']) ||!isset($_REQUEST['productCost']) ||
+!isset($_REQUEST['productCode']) ||!isset($_REQUEST['productCost']) || !isset($_REQUEST['oldprice']) ||
 
 !isset($_REQUEST['productProfit']) ||!isset($_REQUEST['productDescription']) ||
 !isset($_REQUEST['productWeight']) ||!isset($_REQUEST['subcategoryid']) 
@@ -75,7 +75,7 @@ array("color"=>$_REQUEST['productColor'],"s"=>$_REQUEST['small'],"m"=>$_REQUEST[
 
 
 $model = new product();
-$productid=$model->insertProduct($_REQUEST['productName'],$_REQUEST['productCode'],$_REQUEST['productCost'],$_REQUEST['productProfit'],$_REQUEST['productDescription'],$_REQUEST['productWeight'],$productdetail,$_REQUEST['subcategoryid']);
+$productid=$model->insertProduct($_REQUEST['productName'],$_REQUEST['productCode'],$_REQUEST['productCost'],$_REQUEST['oldprice'],$_REQUEST['productProfit'],$_REQUEST['productDescription'],$_REQUEST['productWeight'],$productdetail,$_REQUEST['subcategoryid']);
     echo trim($productid);
 
 }
