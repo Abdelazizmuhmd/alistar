@@ -55,25 +55,25 @@ include("menu.php");
 ?>   
 <main class="main-content grid__item medium-up--four-fifths" id="MainContent" role="main">
 <hr class="hr--border-top small--hide">
-<h1 class="small--text-center">Create Account</h1>
+<h1 class="small--text-center"><?php echo $lang['Signup'] ?></h1>
 <div class="form-register form-vertical">
    <form method = "post" action="../public/signup.php?action=signUP" >
     <label for="FirstName" class="label--hidden">First Name</label>
-    <input type="text" name="firstname" id="firstName"  placeholder="First Name" autocapitalize="words" autofocus="" maxlength="10" onkeyup="validateForm()">
+    <input type="text" name="firstname" id="firstName"  placeholder="<?php echo $lang['firstname'] ?>" autocapitalize="words" autofocus="" maxlength="10" onkeyup="validateForm()">
     <p id="Fname" style="color:red;"></p>
     <label for="LastName" class="label--hidden">Last Name</label>
-    <input type="text" name="lastname" id="lastName"  placeholder="Last Name" autocapitalize="words" maxlength="10" onkeyup="validateForm()">
+    <input type="text" name="lastname" id="lastName"  placeholder="<?php echo $lang['lastname'] ?>" autocapitalize="words" maxlength="10" onkeyup="validateForm()">
     <p id="Lname" style="color:red;"></p>
 
     <label for="Email" class="label--hidden">Email</label>
-    <input type="email" name="email" id="email"  class="" placeholder="Email" autocorrect="off" autocapitalize="off" onkeyup="validateForm()">
+    <input type="email" name="email" id="email"  class="" placeholder="<?php echo $lang['email'] ?>" autocorrect="off" autocapitalize="off" onkeyup="validateForm()">
     <p id="mail" style="color:red;"></p>
 
     <label for="CreatePassword" class="label--hidden">Password</label>
-    <input type="password" name="password" id="password"  class="" placeholder="Password" maxlength="25" onkeyup="validateForm()">
+    <input type="password" name="password" id="password"  class="" placeholder="<?php echo $lang['password'] ?>" maxlength="25" onkeyup="validateForm()">
     <p id="pass" style="color:red;"></p>
     <p>
-      <input type="submit" name="submit" class="btn" value="Create" onclick="return validateForm()" >
+      <input type="submit" name="submit" class="btn" value="<?php echo $lang['Signup'] ?>" onclick="return validateForm()" >
     </p>
   </form> 
   

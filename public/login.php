@@ -4,6 +4,7 @@ include_once( "../controller/loginController.php");
 include_once("../model/menu.php");
 include_once("../controller/menuController.php");
 include_once("../view/menuView.php");
+
 $model = new menu();
 $controller= new menuController($model);
 $controller->getAllCategoriesDetails();
@@ -57,7 +58,9 @@ echo "mail sent successfully";
 
 <body >
 <?php
+
     include_once("../public/header.php");
+
 ?>
 <div class="site-wrapper">
 <div class="grid">
@@ -78,23 +81,23 @@ include("menu.php");
     <div id="CustomerLoginForm" class="form-vertical">
       <form method="post" action="../public/login.php?action=login" id="customer_login" accept-charset="UTF-8"><input type="hidden" name="form_type" value="customer_login"><input type="hidden" name="utf8" value="✓">
 
-        <h1 class="small--text-center">Login</h1>
+        <h1 class="small--text-center"><?php echo $lang['Login'] ?></h1>
 
         <p id="wronguser" style="color:red;"></p>
 
         <label for="CustomerEmail" class="label--hidden">Email</label>
-        <input type="email" name="email" id="CustomerEmail" class="" placeholder="Email" autocorrect="off" autocapitalize="off" autofocus="" onkeyup="validateForm()">
+        <input type="email" name="email" id="CustomerEmail" class="" placeholder="<?php echo $lang['email'] ?>" autocorrect="off" autocapitalize="off" autofocus="" onkeyup="validateForm()">
         <p id="mail" style="color:red;"></p>
         
           <label for="CustomerPassword" class="label--hidden">Password</label>
-          <input type="password" value="" name="password" id="CustomerPassword" class="" placeholder="Password" onkeyup="validateForm()">
+          <input type="password" value="" name="password" id="CustomerPassword" class="" placeholder="<?php echo $lang['password'] ?>" onkeyup="validateForm()">
                  <?php  if(isset($_GET['check'])){ echo"<P> Invalid Passsword </P>";   }
           ?>
           <p id="pass" style="color:red;"></p>
         <p>
-          <input type="submit" name="signin" class="btn" value="Log IN" onclick="return validateForm()">
+          <input type="submit" name="signin" class="btn" value="<?php echo $lang['Login'] ?>" onclick="return validateForm()">
         </p>
-        <p><a href="../public/signup.php" id="customer_register_link">Sign up</a></p>
+        <p><a href="../public/signup.php" id="customer_register_link"><?php echo $lang['Signup'] ?></a></p>
         
           <p><a style = "display:none;" href="#recover" id="RecoverPassword">Forgot your password?</a></p>
         
@@ -128,7 +131,7 @@ include("menu.php");
 </div>
 <hr>
 </div>  
-<script>function wronguser(){document.getElementById('wronguser').innerHTML='Invalid email or password'; } </script>
+<script>function wronguser(){document.getElementById('wronguser').innerHTML='<?php echo $lang['inavlidmailpassword'] ?>'; } </script>
 <?php
 include("../public/footer.php");
  ?>

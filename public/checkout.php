@@ -3,6 +3,7 @@ ob_start();
 require_once("../model/user.php");
 require_once("../controller/checkoutController.php");
 require_once("../view/checkOut.php");
+require_once("langbuttons.php");
 session_start();
 $model = new user();
 $controller = new checkOutController($model);
@@ -45,7 +46,7 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
 <div class="main">
 <header class="main__header" role="banner">
 <h1 >
-Information
+<?php echo $lang['information'] ?>
 </h1>
 </header>
 <main class="main__content" role="main">

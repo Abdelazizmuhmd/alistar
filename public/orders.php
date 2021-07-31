@@ -148,7 +148,7 @@ include_once("../other/sessioncheck.php");
     </center>
     <br>        -->
     <CENTER>
-    <h1>ORDERS</h1></CENTER>
+    <h1><?php echo $lang['My Orders'] ?></h1></CENTER>
      <div class="wrapper" style="margin-top:30px;">
 
 
