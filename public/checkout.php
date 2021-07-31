@@ -9,7 +9,6 @@ require_once("langbuttons.php");
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception; 
 require '../vendor/autoload.php'; 
->>>>>>> abfa0aa222072e8e3a5a0b894a7435b335d2dcb3
 session_start();
 $model = new user();
 $controller = new checkOutController($model);
