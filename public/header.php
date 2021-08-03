@@ -7,8 +7,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-<?php require_once("langbuttons.php");
-?>
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
             <?php
@@ -16,7 +15,8 @@
 
             session_start();
             }
-      
+       require_once("langbuttons.php");
+
       if(!isset($_SESSION['usertype'])||$_SESSION['usertype']=="guest"){
 ?>
             <a href="#" onclick="movetologin()" class="nav-item nav-link " style="color: white;"><?php echo $lang['Login'] ?></a>
