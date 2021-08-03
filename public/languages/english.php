@@ -15,7 +15,7 @@ $lang['Logout'] = "Logout";
 
 $lang['Welcome'] = "Welcome";
 
-$lang['My Orders'] = "My Orders";
+$lang['My Orders'] = "Orders";
 
 $lang['Products'] = "Products";
 
@@ -33,16 +33,16 @@ $lang['email'] = "email";
 
 $lang['password'] = "password";
 
-$lang['inavlidmailpassword'] = "inavlidmailpassword";
+$lang['inavlidmailpassword'] = "inavlid mail or password";
 
-$lang['invalidmail'] = "invalidmail";
+$lang['invalidmail'] = "invalid mail";
 
 
-$lang['firstname'] = "firstname";
+$lang['firstname'] = "first name";
 
-$lang['lastname'] = "lastname";
+$lang['lastname'] = "last name";
 
-$lang['continueshopping'] = "continueshopping";
+$lang['continueshopping'] = "continue shopping";
 
 $lang['checkout'] = "checkout";
 
@@ -64,5 +64,18 @@ $lang['createdtime'] = "createdtime";
 
 $lang['orderdetails'] = "orderdetails";
 
+$lang['USERID'] = "USERID";
+
+$lang['NAME'] = "NAME";
+
+$lang['PHONE'] = "PHONE";
+
+$lang['ADDRESS'] = "ADDRESS";
+
+$lang['APARTMENT'] = "APARTMENT";
+
+$lang['CITY'] = "CITY";
+
+$lang['USERTYPE'] = "USERTYPE";
 
 ?>

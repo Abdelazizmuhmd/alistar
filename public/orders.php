@@ -167,14 +167,14 @@ include_once("../other/sessioncheck.php");
         <?php
                 if($_SESSION['usertype']=="admin"){  
                      ?>
-        <th data-field="userid" data-sortable="true" data-filter-control="select">userID</th>    
-        <th data-field="name" data-sortable="true" data-filter-control="select">Name</th>
-        <th data-field="email" data-sortable="true" data-filter-control="select">Email</th>
-        <th data-field="phone" data-sortable="true" data-filter-control="select">Phone</th>
-        <th data-field="address" data-sortable="true" >Address</th>
-        <th data-field="apartment" data-sortable="true">Apartment</th>
-        <th data-field="city" data-sortable="true" data-filter-control="select">City</th>
-        <th data-field="usertype" data-sortable="true" data-filter-control="select">Usertype</th>
+        <th data-field="userid" data-sortable="true" data-filter-control="select"><?php echo $lang['USERID'] ?></th>    
+        <th data-field="name" data-sortable="true" data-filter-control="select"><?php echo $lang['NAME'] ?></th>
+        <th data-field="email" data-sortable="true" data-filter-control="select"><?php echo $lang['email'] ?></th>
+        <th data-field="phone" data-sortable="true" data-filter-control="select"><?php echo $lang['PHONE'] ?></th>
+        <th data-field="address" data-sortable="true" ><?php echo $lang['ADDRESS'] ?></th>
+        <th data-field="apartment" data-sortable="true"><?php echo $lang['APARTMENT'] ?></th>
+        <th data-field="city" data-sortable="true" data-filter-control="select"><?php echo $lang['CITY'] ?></th>
+        <th data-field="usertype" data-sortable="true" data-filter-control="select"><?php echo $lang['USERTYPE'] ?></th>
         <?php } ?>
         <th data-field="orderID" data-sortable="true" data-filter-control="select"><?php echo $lang['orderid'] ?></th>
         <th data-field="comment" data-sortable="true" ><?php echo $lang['comment'] ?></th>

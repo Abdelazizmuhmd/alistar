@@ -14,7 +14,7 @@ $lang['Logout'] = "تسجيل الخروج";
 
 $lang['Welcome'] = "أهلاً";
 
-$lang['My Orders'] = "طلباتي";
+$lang['My Orders'] = "الطلبات";
 
 $lang['Products'] = "المنتجات";
 
@@ -62,6 +62,22 @@ $lang['status'] = "الحالة";
 $lang['createdtime'] = "تاريخ الطلب";
 
 $lang['orderdetails'] = "تفاصيل الطلب";
+
+
+$lang['USERID'] = "رقم العميل";
+
+$lang['NAME'] = "الاسم";
+
+$lang['PHONE'] = "التليفون";
+
+$lang['ADDRESS'] = "العنوان";
+
+$lang['APARTMENT'] = "شقة / منزل";
+
+$lang['CITY'] = "المدينة";
+
+$lang['USERTYPE'] = "نوع العميل";
+
 
 
 ?>
