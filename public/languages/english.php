@@ -52,5 +52,17 @@ $lang['information'] = "Information";
 
 $lang['shippingaddress'] = "Shipping Address";
 
+$lang['number'] = "number";
+
+$lang['orderid'] = "orderid";
+
+$lang['comment'] = "comment";
+
+$lang['status'] = "status";
+
+$lang['createdtime'] = "createdtime";
+
+$lang['orderdetails'] = "orderdetails";
+
 
 ?>

@@ -51,5 +51,17 @@ $lang['information'] = "معلومات";
 
 $lang['shippingaddress'] = "عنوان الشحنة";
 
+$lang['number'] = "الترتيب";
+
+$lang['orderid'] = "رقم الطلب";
+
+$lang['comment'] = "ملاحظات";
+
+$lang['status'] = "الحالة";
+
+$lang['createdtime'] = "تاريخ الطلب";
+
+$lang['orderdetails'] = "تفاصيل الطلب";
+
 
 ?>

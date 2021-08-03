@@ -162,7 +162,7 @@ include_once("../other/sessioncheck.php");
     <table id="fresh-table"  class="table tableshow printa" data-filter-control="true">
         <thead>
     <tr class="must">
-                <th data-field="Number" data-sortable="true"><label for="vehicle1">Number</label></th>    
+                <th data-field="Number" data-sortable="true"><label for="vehicle1"><?php echo $lang['number'] ?></label></th>    
 
         <?php
                 if($_SESSION['usertype']=="admin"){  
@@ -176,12 +176,12 @@ include_once("../other/sessioncheck.php");
         <th data-field="city" data-sortable="true" data-filter-control="select">City</th>
         <th data-field="usertype" data-sortable="true" data-filter-control="select">Usertype</th>
         <?php } ?>
-        <th data-field="orderID" data-sortable="true" data-filter-control="select">orderID</th>
-        <th data-field="comment" data-sortable="true" >Comment</th>
-        <th  data-field="status" data-sortable="true" data-filter-control="select">Status</th>
-        <th data-field="createdtime" data-sortable="true">Created time</th>
+        <th data-field="orderID" data-sortable="true" data-filter-control="select"><?php echo $lang['orderid'] ?></th>
+        <th data-field="comment" data-sortable="true" ><?php echo $lang['comment'] ?></th>
+        <th  data-field="status" data-sortable="true" data-filter-control="select"><?php echo $lang['status'] ?></th>
+        <th data-field="createdtime" data-sortable="true"><?php echo $lang['createdtime'] ?></th>
         
-        <th data-field="orderdetails" data-sortable="true">order Details</th>
+        <th data-field="orderdetails" data-sortable="true"><?php echo $lang['orderdetails'] ?></th>
           <?php
                 if($_SESSION['usertype']=="admin"){  
                      ?>
