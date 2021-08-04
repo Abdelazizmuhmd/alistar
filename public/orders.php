@@ -194,9 +194,15 @@ include_once("../other/sessioncheck.php");
                       
                 <tbody>
                 <center>
+                <?php 
+                if($_SESSION['usertype']=="admin"){ 
+                ?>
                 <a href="#" class="btn prin btn-info btn-lg">
           <span style="text-align:center" class="glyphicon glyphicon-print"></span> Print
         </a>
+        <?php 
+                }
+        ?>
                 <?php
                  if(count($model->getordersArray())>0)
                   echo $view->output();
