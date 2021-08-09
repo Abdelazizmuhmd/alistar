@@ -66,6 +66,9 @@ $lang['information'] = "معلومات";
 
 $lang['shippingaddress'] = "عنوان الشحنة";
 
+$lang['makeorder'] = "أرسل الطلب";
+
+
 $lang['number'] = "الترتيب";
 
 $lang['orderid'] = "رقم الطلب";
@@ -93,6 +96,7 @@ $lang['CITY'] = "المدينة";
 
 $lang['USERTYPE'] = "نوع العميل";
 
+$lang['delivery'] = "التوصيل";
 
 $lang['contactinformation'] = "معلومات التواصل";
 

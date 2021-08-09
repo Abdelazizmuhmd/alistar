@@ -1,15 +1,18 @@
 <?php       
-ob_start(); 
+ob_start();
+
+    ob_start();
+    require_once("header.php"); 
+    ob_end_clean();
 require_once("../model/user.php");
 require_once("../controller/checkoutController.php");
 require_once("../view/checkOut.php");
 
 
-require_once("langbuttons.php");
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception; 
 require '../vendor/autoload.php'; 
-session_start();
+// session_start();
 $model = new user();
 $controller = new checkOutController($model);
 if(isset($_SESSION['id'])){
@@ -86,7 +89,8 @@ Information
 </div>
 <div class="sidebar__content">
 <div id="order-summary" class="order-summary order-summary--is-collapsed" data-order-summary>
-<h2 class="visually-hidden-if-js">Order summary</h2>
+<h2 class="visually-hidden-if-js"><?php echo $lang['My Orders'] ?>
+</h2>
 <div class="order-summary__sections">
 <div class="order-summary__section order-summary__section--product-list">
 <div class="order-summary__section__content">
@@ -111,7 +115,7 @@ Information
   </thead>
     <tbody class="total-line-table__tbody">
       <tr class="total-line total-line--subtotal">
-  <th class="total-line__name" scope="row">Subtotal</th>
+  <th class="total-line__name" scope="row"><?php echo $lang['subtotal'] ?></th>
   <td class="total-line__price">
     <span class="order-summary__emphasis" id="subtotalprice" data-checkout-subtotal-price-target="3000">
     </span>
@@ -119,7 +123,7 @@ Information
   </td>
 </tr>
   <tr class="total-line total-line--subtotal">
-  <th class="total-line__name" scope="row">Delivery</th>
+  <th class="total-line__name" scope="row"><?php echo $lang['delivery'] ?></th>
   <td class="total-line__price">
     <span class="order-summary__emphasis"  data-checkout-subtotal-price-target="3000">
         30 L.E
@@ -133,7 +137,7 @@ Information
   <tfoot class="total-line-table__footer">
     <tr class="total-line">
       <th class="total-line__name payment-due-label" scope="row">
-        <span class="payment-due-label__total">Total</span>
+        <span class="payment-due-label__total"><?php echo $lang['total'] ?></span>
           <span class="payment-due-label__taxes order-summary__small-text hidden" data-checkout-taxes>
             Including <span data-checkout-total-taxes-target="0">€0,00</span> in taxes
           </span>

@@ -1,6 +1,15 @@
 <?php
 
 require_once("../view/View.php");
+require_once("langbuttons.php");
+
+define("firstname", $lang['firstname']);
+define("lastname", $lang['lastname']);
+define("email", $lang['email']);
+define("ADDRESS", $lang['ADDRESS']);
+define("APARTMENT", $lang['APARTMENT']);
+define("PHONE", $lang['PHONE']);
+define("makeorder", $lang['makeorder']);
 
 class viewCheckOut extends View{
 
@@ -36,7 +45,7 @@ $dis="";
 
      <div class='field field field--required' >
        <div class='field__input-wrapper'>
-         <input value='".$this->model->getfirstName()."' name='firstname'  placeholder='First Name'  class='field__input'  type='text'id='firstName' maxlength='20' onkeyup='validate()' required   />
+         <input value='".$this->model->getfirstName()."' name='firstname'  placeholder='".firstname."'  class='field__input'  type='text'id='firstName' maxlength='20' onkeyup='validate()' required   />
          <p id='Fname' style='color:red;'></p>
          </div>
    </div>
@@ -45,14 +54,14 @@ $dis="";
                       <div class='field field field--required' >
 
        <div class='field__input-wrapper'>
-         <input value='".$this->model->getlastName()."'name='lastname' placeholder='Last name'   class='field__input' type='text' id='lastName'maxlength='20' onkeyup='validate()' required/>
+         <input value='".$this->model->getlastName()."'name='lastname' placeholder='".lastname."'   class='field__input' type='text' id='lastName'maxlength='20' onkeyup='validate()' required/>
          <p id='Lname' style='color:red;'></p>
 
          </div>
          </div>
             <div class='field field field--required' >
        <div class='field__input-wrapper'>
-         <input value='".$this->model->getEmail()."' name='email' size='40' type='email'  id='checkout_email' placeholder='Email'  class='field__input'  type='text' onkeyup='validate()'  required $dis/>
+         <input value='".$this->model->getEmail()."' name='email' size='40' type='email'  id='checkout_email' placeholder='".email."'   class='field__input'  type='text' onkeyup='validate()'  required $dis/>
          <p id='mail' style='color:red;'></p>
 
          </div>
@@ -63,7 +72,7 @@ $dis="";
      <div  class='field field--required'>
        <div class='field__input-wrapper'>
            
-       <input value='".$this->model->getAddress()."' name='address' placeholder='Address'  class='field__input'  type='text' id='adress' maxlength='500' onkeyup='validate()' required />
+       <input value='".$this->model->getAddress()."' name='address' placeholder='".ADDRESS."'  class='field__input'  type='text' id='adress' maxlength='500' onkeyup='validate()' required />
        <p id='Adress' style='color:red;'></p>
 
        </div>
@@ -71,7 +80,7 @@ $dis="";
                  
        <div  class='field field--optional'>
          <div class='field__input-wrapper'>
-           <input value='".$this->model->getApartmant()."' name='apartmant' placeholder='Apartmant'  class='field__input'  type='text' id='apartment'maxlength='40' onkeyup='validate()' required   />
+           <input value='".$this->model->getApartmant()."' name='apartmant' placeholder='".APARTMENT."'  class='field__input'  type='text' id='apartment'maxlength='40' onkeyup='validate()' required   />
            <p id='Apartment' style='color:red;'></p>
 
            </div>  
@@ -137,7 +146,7 @@ $dis="";
     
        <div  class='field field--optional'>
          <div class='field__input-wrapper field__input-wrapper--icon-right'>
-           <input value='".$this->model->getPhone()."' name='phone' placeholder='phone'   class='field__input field__input--numeric'  type='tel'id='phoneNumber' maxlength='11' onkeyup='validate()' required />
+           <input value='".$this->model->getPhone()."' name='phone' placeholder='".PHONE."'   class='field__input field__input--numeric'  type='tel'id='phoneNumber' maxlength='11' onkeyup='validate()' required />
            <p id='Phone' style='color:red;'></p>
 
            <div class='field__icon'>
@@ -159,7 +168,7 @@ $dis="";
        <div class='step__footer' data-step-footer>
 
       <button onclick ='return validate()' class='step__footer__continue-btn btn' >
-        <span class='btn__content' >Make Order</span>
+        <span class='btn__content' >".makeorder."</span>
        </button>
 </form>
      ";

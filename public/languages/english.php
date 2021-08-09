@@ -57,12 +57,15 @@ $lang['color'] = "Color";
 $lang['price'] = "Price";
 $lang['total'] = "Total";
 $lang['remove'] = "Remove";
+$lang['size'] = "Size";
 
 $lang['description'] = "Description";
 
 $lang['information'] = "Information";
 
 $lang['shippingaddress'] = "Shipping Address";
+
+$lang['makeorder'] = "Make Order";
 
 $lang['number'] = "number";
 
@@ -89,6 +92,8 @@ $lang['APARTMENT'] = "APARTMENT";
 $lang['CITY'] = "CITY";
 
 $lang['USERTYPE'] = "USERTYPE";
+
+$lang['delivery'] = "Delivery";
 
 
 $lang['contactinformation'] = "Contact Information";
