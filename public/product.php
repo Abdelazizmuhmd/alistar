@@ -1,7 +1,9 @@
 <?php
+include_once("../public/header.php");
 require_once("../model/menu.php");
 require_once("../controller/menuController.php");
 require_once("../view/menuView.php");
+
 $model = new menu();
 $controller= new menuController($model);
 if (isset($_GET['action']) && !empty($_GET['action'])) {
@@ -35,6 +37,8 @@ $view= new menuView($model,$controller);
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <link href="../css/home.css" rel="stylesheet" type="text/css" media="all" />
     <link href="../css/slider.css" rel="stylesheet" type="text/css" media="all" />
     <link href="../css/photo.css" rel="stylesheet" type="text/css" media="all" />
@@ -46,7 +50,7 @@ $view= new menuView($model,$controller);
 <body>
 
 <?php
-    include_once("../public/header.php");
+    //include_once("../public/header.php");
 ?>
 
 <div class="site-wrapper">

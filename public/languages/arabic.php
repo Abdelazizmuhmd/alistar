@@ -45,7 +45,22 @@ $lang['continueshopping'] = "استكمال التسوق";
 
 $lang['checkout'] = "الدفع";
 
+$lang['subtotal'] = "الحساب الكلي";
+
+
 $lang['taxes'] = "شامل الضريبة و يصلك حتي المنزل";
+
+$lang['addtocart'] = "أضف الي السلة";
+
+$lang['quantity'] = "الكمية";
+$lang['color'] = "اللون";
+$lang['price'] = "ثمن القطعة";
+$lang['total'] = "اجمالي السعر";
+$lang['remove'] = "حذف من السلة";
+
+
+$lang['size'] = "المقاس";
+$lang['description'] = "وصف المنتج";
 
 $lang['information'] = "معلومات";
 
@@ -79,5 +94,12 @@ $lang['CITY'] = "المدينة";
 $lang['USERTYPE'] = "نوع العميل";
 
 
+$lang['contactinformation'] = "معلومات التواصل";
+
+$lang['keepconnected'] = "تواصل دائما";
+
+$lang['20years'] = "٢٠ عاماً من الخبرة في صناعة الملابس";
+
+$lang['allrights'] = "جميع الحقوق محفوظة";
 
 ?>

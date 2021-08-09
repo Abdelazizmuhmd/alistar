@@ -23,7 +23,7 @@ $lang['Colors'] = "Colors";
 
 $lang['loadMore'] = "loadMore";
 
-$lang['cart'] = "  cart  ";
+$lang['cart'] = "  Cart  ";
 
 $lang['Login'] = "Login";
 
@@ -46,7 +46,19 @@ $lang['continueshopping'] = "continue shopping";
 
 $lang['checkout'] = "checkout";
 
+$lang['subtotal'] = "Subtotal";
+
+
 $lang['taxes'] = "Tax included. Delivered to your door";
+
+$lang['addtocart'] = "ADD TO CART";
+$lang['quantity'] = "Quantity";
+$lang['color'] = "Color";
+$lang['price'] = "Price";
+$lang['total'] = "Total";
+$lang['remove'] = "Remove";
+
+$lang['description'] = "Description";
 
 $lang['information'] = "Information";
 
@@ -77,5 +89,14 @@ $lang['APARTMENT'] = "APARTMENT";
 $lang['CITY'] = "CITY";
 
 $lang['USERTYPE'] = "USERTYPE";
+
+
+$lang['contactinformation'] = "Contact Information";
+
+$lang['keepconnected'] = "Keep Connected";
+
+$lang['20years'] = "20 Years of clothes production";
+
+$lang['allrights'] = "All Rights Reserved";
 
 ?>

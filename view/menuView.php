@@ -1,6 +1,13 @@
 <?php
 require_once("../view/View.php");
+require_once("header.php");
 
+define("taxes", $lang['taxes']);
+define("addtocart", $lang['addtocart']);
+define("size", $lang['size']);
+define("quantity", $lang['quantity']);
+define("color", $lang['color']);
+define("description", $lang['description']);
 
 class menuView extends View{
 
@@ -202,7 +209,7 @@ class menuView extends View{
 
                
 
-                     $str.= '<div class="product-single__policies rte">Tax included. Delevered to your Door.
+                     $str.= '<div class="product-single__policies rte">'.taxes.'
 
 
                      </div>
@@ -220,7 +227,7 @@ class menuView extends View{
 
 
                          <div class="selector-wrapper">
-                            <label for="ProductSelect-product-template-option-0"> Color</label>
+                            <label for="ProductSelect-product-template-option-0">'.color.'</label>
                              <select class="single-option-selector decider" data-option="option1"
                                  id="ProductSelect-product-color-option-'.$counterid.'"  name="colors"  check="'.$display.'" >';
                                  foreach($productdetails as $pro){
@@ -232,7 +239,7 @@ class menuView extends View{
                             $str.=' </select>
                          </div>
                          <div class="selector-wrapper decdiv">
-                             <label for="ProductSelect-product-template-option-1">Size</label>
+                             <label for="ProductSelect-product-template-option-1">'.size.'</label>
                              <select class="single-option-selector quantity" data-option="option2"
                                  id="ProductSelect-product-size-option-'.$counterid.'" name="sizes">';
 
@@ -252,13 +259,13 @@ class menuView extends View{
 
 
                          <div class="product-single__quantity qdiv">
-                             <label for="Quantity">Quantity</label>
+                             <label for="Quantity">'.quantity.'</label>
                              <input type="number" class="qbutton" id="Quantity'.$counterid.'" name="quantity" value="1" min="1">
                          </div>
 
 
                          <div class="product-single__cart-submit-wrapper  product-form--full">
-                       <input type="submit" onclick="addToCart('.$counterid.')" value="Add to Cart" name="add" id="AddToCart"
+                       <input type="submit" onclick="addToCart('.$counterid.')" value= "'.addtocart.'" name="add" id="AddToCart"
                                class="btn product-single__cart-submit btn--full  btn--secondary">
 
 
@@ -278,7 +285,7 @@ $counterid = $counterid + 1;
         
 
                 $str.= '<div class="product-single__description rte" itemprop="description"><h1>
-                    Description</h1>
+                    '.description.'</h1>
 
                      '.$product->getDescription().'
                      <br>                     <br>
